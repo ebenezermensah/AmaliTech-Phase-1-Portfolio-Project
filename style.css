@@ -119,6 +119,7 @@ header {
 .wave-background-top{
     margin: 0 auto;
     display: block;
+    width: 100%;
 }
 .background-top-desktop {
     display: none;
@@ -147,6 +148,7 @@ header {
 .wave-background-bottom{
     margin: 0 auto;
     display: block;
+    width: 100%;
 }
 
 .background-bottom-desktop {
@@ -256,7 +258,7 @@ form{
 }
 
 
-@media (min-width:385px) {
+@media (min-width:768px) {
     header {
         display: flex;
         flex-wrap: wrap;
@@ -364,7 +366,7 @@ form{
     }
 }
 
-/* No less than 400px, no greater than 900px */
+/* No less than 400px, no greater than 900px 
 @media (min-width:385px) and (max-width:1100px) {
     body{
         text-align: center;
@@ -404,4 +406,4 @@ form{
         line-height: 18px
     }
     
-}
+} */
